@@ -7,7 +7,7 @@ var { convertArrayToCSV } = require('convert-array-to-csv');
  * Writes array of viewcounts for each video to csv file.
  */
 
-const API_KEY = "";
+const API_KEY = fs.readFileSync('./key.txt', { encoding: 'utf-8' });
 const channelId = 'UC-lHJZR3Gqxm24_Vd_AJ5Yw&key=AIzaSyAKxw3Kpz94cyyW8_45_XNyX2UsowLfWBE';
 const fileName = 'pewds.csv';
 const popSize = 500;
