@@ -8,7 +8,7 @@ var { convertArrayToCSV } = require('convert-array-to-csv');
  */
 
 const API_KEY = fs.readFileSync('./key.txt', { encoding: 'utf-8' });
-const channelId = 'UC-lHJZR3Gqxm24_Vd_AJ5Yw&key=AIzaSyAKxw3Kpz94cyyW8_45_XNyX2UsowLfWBE';
+const channelId = 'UC-lHJZR3Gqxm24_Vd_AJ5Yw';
 const fileName = 'pewds.csv';
 const popSize = 500;
 
